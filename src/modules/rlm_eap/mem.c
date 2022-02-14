@@ -117,7 +117,7 @@ static int _eap_handler_free(eap_handler_t *handler)
 		WARN("!! Please read http://wiki.freeradius.org/guide/Certificate_Compatibility     !!");
 		WARN("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
 	}
-	
+
 	return 0;
 }
 
@@ -263,6 +263,7 @@ static void eaplist_expire(rlm_eap_t *inst, REQUEST *request, time_t timestamp)
 			case PW_EAP_TLS:
 			case PW_EAP_TTLS:
 			case PW_EAP_PEAP:
+			case PW_EAP_EAGENT:
 			case PW_EAP_FAST:
 				tls_fail(handler->opaque); /* MUST be a tls_session! */
 				break;

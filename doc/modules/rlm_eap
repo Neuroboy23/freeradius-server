@@ -90,6 +90,7 @@ EAP CODE ORGANIZATION
   rlm_eap/types/rlm_eap_tls  -- EAP-TLS based authentication.
   rlm_eap/types/rlm_eap_ttls -- TTLS based authentication.
   rlm_eap/types/rlm_eap_peap -- Windows PEAP based authentication.
+  rlm_eap/types/rlm_eap_eagent -- Windows EAGENT based authentication.
   rlm_eap/types/rlm_eap_sim  -- EAP-SIM (GSM) based authentication
 
 CONFIGURATION
@@ -391,5 +392,3 @@ ACKNOWLEDGEMENTS
    EAP-SIM	 - Michael Richardson <mcr@sandelman.ottawa.on.ca>
 		    The development of the EAP/SIM support was funded by
 		    Internet Foundation Austria (http://www.nic.at/ipa).
-
-

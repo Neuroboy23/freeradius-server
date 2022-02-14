@@ -88,7 +88,7 @@ static int eap_handler_cmp(void const *a, void const *b)
 
 		fr_ntop(src1, sizeof(src1), &one->src_ipaddr);
 		fr_ntop(src2, sizeof(src2), &two->src_ipaddr);
-		
+
 		RATE_LIMIT(WARN("EAP packets for one session are arriving from two different upstream"
 				"servers (%s and %s).  Has there been a proxy fail-over?",
 				src1, src2));
@@ -183,6 +183,7 @@ static int mod_instantiate(CONF_SECTION *cs, void *instance)
 		case PW_EAP_TLS:
 		case PW_EAP_TTLS:
 		case PW_EAP_PEAP:
+		case PW_EAP_EAGENT:
 		case PW_EAP_PWD:
 			WARN("rlm_eap (%s): Ignoring EAP method %s because we don't have OpenSSL support",
 			     inst->xlat_name, name);

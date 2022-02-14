@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "rest.h": "c",
+        "list": "c",
+        "eap_peap.h": "c",
+        "eap_tls.h": "c",
+        "libradius.h": "c"
+    }
+}

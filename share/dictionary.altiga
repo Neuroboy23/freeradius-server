@@ -98,6 +98,7 @@ VALUE Altiga-PPTP-Min-Authentication-G/U     EAP-GTC         8
 VALUE Altiga-PPTP-Min-Authentication-G/U     EAP-TLS         16
 VALUE Altiga-PPTP-Min-Authentication-G/U     MSCHAPv1        32
 VALUE Altiga-PPTP-Min-Authentication-G/U     MSCHAPv2        64
+VALUE Altiga-PPTP-Min-Authentication-G/U     EAP-EAGENT      128
 VALUE Altiga-PPTP-Min-Authentication-G/U     Default         102
 
 VALUE Altiga-L2TP-Min-Authentication-G/U     PAP             1
@@ -107,6 +108,7 @@ VALUE Altiga-L2TP-Min-Authentication-G/U     EAP-GTC         8
 VALUE Altiga-L2TP-Min-Authentication-G/U     EAP-TLS         16
 VALUE Altiga-L2TP-Min-Authentication-G/U     MSCHAPv1        32
 VALUE Altiga-L2TP-Min-Authentication-G/U     MSCHAPv2        64
+VALUE Altiga-L2TP-Min-Authentication-G/U     EAP-EAGENT      128
 VALUE Altiga-L2TP-Min-Authentication-G/U     Default         102
 
 VALUE	Altiga-PPTP-Encryption-G	PPTP-40bit		2

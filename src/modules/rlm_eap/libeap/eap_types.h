@@ -98,7 +98,8 @@ typedef enum eap_method {
 	PW_EAP_GPSK,			/* 51 */
 	PW_EAP_PWD,			/* 52 */
 	PW_EAP_EKE,			/* 53 */
-	PW_EAP_MAX_TYPES		/* 54 - for validation */
+	PW_EAP_EAGENT,			/* 54 */
+	PW_EAP_MAX_TYPES		/* 55 - for validation */
 } eap_type_t;
 
 #define PW_EAP_EXPANDED_TYPE	(254)

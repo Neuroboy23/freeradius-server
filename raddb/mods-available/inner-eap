@@ -25,6 +25,14 @@ eap inner-eap {
 	md5 {
 	}
 
+	eagent {
+		#  The default challenge, which many clients
+		#  ignore..
+		#challenge = "Password: "
+
+		auth_type = PAP
+	}
+
 	gtc {
 		#  The default challenge, which many clients
 		#  ignore..

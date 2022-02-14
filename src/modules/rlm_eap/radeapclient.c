@@ -2165,6 +2165,7 @@ static int rc_map_eap_methods(RADIUS_PACKET *req)
 	case PW_EAP_NAK:
 	case PW_EAP_MD5:
 	case PW_EAP_OTP:
+	case PW_EAP_EAGENT:
 	case PW_EAP_GTC:
 	case PW_EAP_TLS:
 	case PW_EAP_LEAP:
@@ -2303,4 +2304,3 @@ static int rc_unmap_eapsim_types(RADIUS_PACKET *r)
 	talloc_free(eap_data);
 	return rcode_unmap;
 }
-

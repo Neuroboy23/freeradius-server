@@ -112,6 +112,9 @@ CONFIG_EAP_TTLS=y
 # with openssl-0.9.8x-tls-extensions.patch, to add the needed functions.
 CONFIG_EAP_FAST=y
 
+# EAP-EAGENT
+CONFIG_EAP_EAGENT=y
+
 # EAP-GTC
 CONFIG_EAP_GTC=y
 
